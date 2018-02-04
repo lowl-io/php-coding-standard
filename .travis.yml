@@ -1,0 +1,16 @@
+dist: trusty
+sudo: false
+language: php
+
+php:
+  - 7.1
+  - 7.2
+
+before_install:
+  - composer self-update
+
+
+install: travis_retry composer update --prefer-dist
+
+script:
+  - vendor/bin/phpcs
