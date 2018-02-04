@@ -1,0 +1,13 @@
+{
+    "name": "lowl/coding-standart",
+    "description": "Lowl Coding Standart",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Patsura",
+            "email": "talk@dmtry.me"
+        }
+    ],
+    "require": {}
+}
